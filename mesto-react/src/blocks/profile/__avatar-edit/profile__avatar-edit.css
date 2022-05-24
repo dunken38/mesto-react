@@ -1,0 +1,19 @@
+.profile__avatar-edit {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-position: center;
+  transition: 0.3s;
+}
+
+.profile__avatar-edit:hover {
+  background-image: url(../../../images/editAvatar.svg);
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  background-color: rgba(0,0,0, .8);
+}
